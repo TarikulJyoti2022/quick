@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+	position: fixed;
+	background-color: white;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+.navbar{
+	display: flex;
+	justify-content:space-between; 
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 18px;
+}
+.menu ul li a{
+	line-height: 62px;
+	font-weight: 300;
+}
+.banner{
+	width: 100%;
+	padding: 60px 0px;
+	text-align: center;
+}
+.banner-content h1{
+	font-size: 48px;
+	color: #3f3d56;
+	line-height: 1.2;
+	margin-bottom: 16px;
+	font-weight: 600;
+}
+.banner-content h1 span{
+	color: #008aff;
+}
+.banner-content p{
+	font-weight: 300;
+	margin-bottom: 16px;
+}
+.project{
+	width: 100%;
+
+	margin-bottom: 500px;
+}
+.project-content{
+	display: flex;
+	margin-bottom: 100px;
+}
+.left, .right{
+	flex-basis: 50%;
+}
+.left{
+	text-align: right;
+}
+.left h2{
+	font-size: 42px;
+	color: red;
+}
+.left p{
+	font-weight: 300;
+	font-size: 16px;
+}
+.right h2{
+
+	color: #3f3d56;
+	font-size: 42px;
+	line-height: 1.2;
+}
+.left {
+	margin-left: 16px;
+}
+.left {
+	margin-right: 16px;
+}
+.services{
+	width: 100%;
+	padding-bottom: 60px;
+}
+.s-content{
+	display: grid;
+	grid-template-columns: auto auto auto;  
+	column-gap: 22px;
+}
+.bg-1{
+	background-color: #fdebed;
+}
+.bg-1:hover{
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px;
+background-color: white;
+}
+.bg-2{
+	background-color: #ebf9f4;
+}
+.bg-2:hover{
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px;
+background-color: white;
+}
+.bg-3{
+	background-color: #fff7e8;
+}
+.bg-3:hover{
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px;
+background-color: white;
+}
+.s-item{
+	padding: 40px 30px;
+}
+.s-item h5{
+
+}
+.footer{
+	width: 100%;
+	background-color: #008aff;
+	text-align: center;
+	padding: 20px 0;
+}
+.footer p {
+	color: white;
+	font-weight: 300;
+	font-size: 14px;
+}
+.footer p span{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.footer i{
+	height: 60px;
+	width: 60px;
+	background-color: white;
+	text-align: center;
+	line-height: 60px;
+	border-radius: 100%;
+	font-size: 18px;
+	margin: 10px 6px;
+	transition: 1.0s;
+
+}
+.footer i:hover{
+	background-color: tomato;
+	color: white;
+	transform: rotate(360deg);
+	transition: 1.0s;
+
+}
